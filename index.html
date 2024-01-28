@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <button onclick="openModalBtnFunc()" class="openModalBtn">
+      Open Modal
+    </button>
+    <div class="myModal">
+      <div class="modal-content">
+        <span onclick="closeModalBtnFunc()" class="closeModalBtn">&times;</span>
+        <h3>Overwriting existing files!</h3>
+        <p class="para">
+          This is your modal content. You can put any HTML elements here.
+        </p>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

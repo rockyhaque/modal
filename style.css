@@ -1,0 +1,96 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #313131, #6daddb);
+
+  height: 100vh;
+  margin: 0;
+}
+
+.myModal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #dee4ea, #bdd0e2);
+}
+
+.modal-content {
+  background: linear-gradient(to right, #17ead9, #6078ea);
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  width: 60%;
+  color: rgb(243, 241, 238);
+  box-shadow: 0 0 15px #5f5d5d;
+}
+
+.openModalBtn {
+  background-image: linear-gradient(
+    to right,
+    #1d2b64 0%,
+    #f8cdda 51%,
+    #1d2b64 100%
+  );
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #7c7a7a;
+  border-radius: 10px;
+  display: block;
+  font-weight: bold;
+}
+
+.openModalBtn:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+  box-shadow: 0 0 20px #ffffff;
+}
+
+.closeModalBtn {
+  background: linear-gradient(to right, #65799b, #fc0318);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  cursor: pointer;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.closeModalBtn:hover {
+  position: relative;
+  left: 2px;
+}
+
+h3 {
+  margin-top: 20px;
+  background: linear-gradient(to right, #000000, #a200ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.para {
+  margin-top: 20px;
+  font-weight: 500;
+  background: linear-gradient(to right, #29313f, #5f1166);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
