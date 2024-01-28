@@ -16,7 +16,6 @@ Welcome to the Custom Modal project! This project provides a customizable modal 
 - [Demo](#demo)
 - [Technologies Used](#technologies-used)
 - [How to Use](#how-to-use)
-- [Contributing](#contributing)
 
 ## Introduction
 
@@ -46,17 +45,7 @@ Experience the Custom Modal: [Custom Modal Demo](https://rockyhaque.github.io/mo
 3. Explore the modal's features, such as resizing, dragging, and closing.
 4. Customize the modal's appearance and behavior according to your preferences.
 
-## Contributing
-
-Contributions are welcome! If you have suggestions, improvements, or new features to add, feel free to submit a pull request. Please ensure your contributions align with the goals of this repository.
-
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature/your-feature`
-3. Implement your changes.
-4. Commit your changes: `git commit -m 'Add your feature'`
-5. Push to the branch: `git push origin feature/your-feature`
-6. Open a pull request.
 
 ---
 
-Thank you for your interest in the Custom Modal project! If you encounter any issues or have suggestions, please feel free to [open an issue](https://github.com/your-username/custom-modal/issues). Enhance your web applications with a stylish and functional modal component!
+Thank you for your interest in the Custom Modal project!
